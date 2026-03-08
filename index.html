@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CUPE Local 2 campaign calling for fair TTC service and safer, more reliable transit for all riders."
+    />
+    <title>Fair TTC Service for Every Rider | CUPE Local 2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="hero" role="banner">
+      <div class="container hero__content">
+        <p class="eyebrow">CUPE Local 2 Campaign</p>
+        <h1>Fair TTC Service for Every Rider</h1>
+        <p class="lead">
+          Toronto riders deserve reliable, safe, and equitable transit in every
+          neighbourhood—no matter their postal code or work schedule.
+        </p>
+        <a class="button button--primary" href="#updates">Get Campaign Updates</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="section" aria-labelledby="why-heading">
+        <div class="container">
+          <h2 id="why-heading">Why this matters</h2>
+          <div class="cards" role="list">
+            <article class="card" role="listitem">
+              <h3>Uneven service hurts working families</h3>
+              <p>
+                Frequent delays and cutbacks hit shift workers, caregivers, and
+                low-income riders the hardest, making daily travel stressful and
+                expensive.
+              </p>
+            </article>
+            <article class="card" role="listitem">
+              <h3>Longer waits reduce access</h3>
+              <p>
+                Inconsistent bus and streetcar frequencies can mean missed
+                appointments, late arrivals, and fewer opportunities for those
+                already facing barriers.
+              </p>
+            </article>
+            <article class="card" role="listitem">
+              <h3>Reliable transit strengthens communities</h3>
+              <p>
+                Better TTC service supports local businesses, student mobility,
+                and climate goals by making public transit a dependable first
+                choice.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--accent" aria-labelledby="asks-heading">
+        <div class="container narrow">
+          <h2 id="asks-heading">What we're asking for</h2>
+          <ul class="demands">
+            <li>Restore and protect frequent service on overcrowded routes.</li>
+            <li>Set minimum off-peak service standards across all wards.</li>
+            <li>
+              Increase operator staffing to reduce cancellations and sudden
+              gaps.
+            </li>
+            <li>
+              Publish transparent monthly service reliability reports for
+              riders.
+            </li>
+            <li>
+              Commit to equitable transit planning with community input.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="updates" aria-labelledby="updates-heading">
+        <div class="container narrow">
+          <h2 id="updates-heading">Get updates</h2>
+          <p>
+            Join CUPE Local 2 campaign updates for actions, meetings, and rider
+            stories from across Toronto.
+          </p>
+
+          <form id="updates-form" novalidate>
+            <label for="email">Email address</label>
+            <div class="form-row">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                required
+                placeholder="name@example.com"
+              />
+              <button type="submit" class="button button--secondary">
+                Sign up
+              </button>
+            </div>
+            <p id="form-message" class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__content">
+        <p>CUPE Local 2</p>
+        <p>&copy; <span id="year"></span> All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
